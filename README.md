@@ -1,1 +1,0 @@
-# Manifest-files-in-Kubernetes
