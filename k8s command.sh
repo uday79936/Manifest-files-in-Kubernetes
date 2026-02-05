@@ -1,4 +1,5 @@
- 1  sudo hostnamectl set-hostname Worker-Agent
+ubuntu@Worker-Agent:~$ history
+    1  sudo hostnamectl set-hostname Worker-Agent
     2  sudo init 6
     3  sudo apt update && sudo apt upgrade -y
     4  ls
@@ -183,4 +184,90 @@
   183  kubectl get all
   184  histroty
   185  history
-ubuntu@Worker-Agent:~$
+  186  kops delete cluster --name=test.k8.local --yes
+  187  ls
+  188  history
+  189  ls
+  190  history
+  191  export KOPS_STATE_STORE=s3://uday2026
+  192  export KOPS_STORE=s3://uday2026
+  193  history
+  194  kops create cluster --name=test.k8.local --zones=us-east-2a,us-east-2b,us-east-2c --node-count=2 --state=s3://uday2026 --yes
+  195  kops validate clustefr
+  196  kops validate cluster
+  197  ll
+  198  kubectl get pods
+  199  kubectl get daemonsets
+  200  kubectl get daemonsets --all
+  201  ll
+  202  kubectl get all
+  203  kubectl get daemonsets --all-namespaces
+  204  kubectl describe daemonset -n kube-system
+  205  kubectl get pods
+  206  kubectl get pods --all-namespace
+  207  kubectl get pods -all-namespaces
+  208  kubectl get pods --all-namespaces
+  209  kubectl get pods --all-namespaces -o wide
+  210  kubectl get ns
+  211  kubectl create namespace daemonset
+  212  kubectl get all ns
+  213  kubectl get ns
+  214  vi daemonset-nginx.yaml
+  215  cat daemonset-nginx.yaml
+  216  kubectl apply -f daemonset-nginx.yaml
+  217  kubectl get ns
+  218  ls
+  219  vi daemonset-nginx.yaml
+  220  kubectl apply -f daemonset-nginx.yaml
+  221  kubectl get daemonset
+  222  kubectl get daemonset -n daemonset
+  223  kubectl get pods -n daemonset -o wide
+  224  kubect
+  225  kubectl scale daemonset nginx-daemonset --replicas=3 -n daemonset
+  226  kubectl get ig
+  227  kubectl get.ig
+  228  kubectl get ig
+  229  kops get ig
+  230  kops edit ig nodes-us-east-2a
+  231  kops update cluster
+  232  kops update cluster --yes
+  233  kops rolling-update cluster
+  234  kops validate cluster
+  235  kops get daemonsets --all-namespaces
+  236  kubectl get daemonsets --all-namespaces
+  237  kops get ig
+  238  history
+  239  export KOPS_STATE_STORE=s3://uday2026
+  240  ls
+  241  kops get pods -n daemonset
+  242  kops get pods
+  243  kubectl get pods
+  244  kops get ig
+  245  kops edit ig nodes-us-east-2a
+  246  kops update cluster --yes
+  247  kops rolling-update cluster --yes
+  248  kubectl get pods -n daemonset -o wide
+  249  ll
+  250  sudo systemctl status cron
+  251  cron-tab -r
+  252  crontab -e
+  253  crobtab -l
+  254  crontab -l
+  255  kops get pods -n daemonset
+  256  history
+  257  kubectl get daemonsets --all-namespaces
+  258  ll
+  259  ls
+  260  vi crontab.yml
+  261  ls
+  262  kubectl apply -f crontab.yml
+  263  kubectl get jobs
+  264  kubectl get pods
+  265  kubectl describe pod
+  266  kubectl get jobs
+  267  kubectl logs hello-29503403
+  268  kubectl logs hello-29503401
+  269  kubectl get pods
+  270  kubectl logs hello-29503403-qdl8c
+  271  ll
+  272  history
